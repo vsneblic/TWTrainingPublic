@@ -1,0 +1,68 @@
+Safety - Joe
+Feeling Check (TDD, Pairing) - Joe
+Vocab - Wendy
+Pair Stairs - Wendy 
+
+Finish Chance - Wendy
+	and
+		reference code
+		new pairs
+	or
+		give DeMorgan's early iff they ask
+		unless someone gets it - do multiple 15 minutes
+		churn - how many objects created here
+	work in simple design
+		it works
+		it communicates
+		no duplicate code
+		no extra code
+	hand out synopsis
+
+
+Object Interactions Lecture - Joe
+
+Square - Joe
+
+Quantity (Liquid) - Wendy
+	3 != 3
+		5 minute design
+		discuss
+	give data points
+		5 minute simple test
+		discuss
+	code
+	Most Suspicious Statement - Wendy (whenever we see a bunch of ifs)
+	
+Quantity (Distance) - Joe
+	give data points
+		5 minute design
+		discuss
+
+		15 minutes - repeat if necessary
+		slug
+	add
+		15 minutes code  - repeat if necessary
+		exceptions
+		convert to base unit
+
+Pairing Demo is Fill to End of Day if Needed
+Factory Methods - s & es - Another Fill Option
+------------------------------------------------------------
+Quantity (Temperature) - Wendy
+Quantity (Adding Temperatures) - Wendy
+
+============================================================
+Notes
+
+Safety as expected for day 2.
+And - very quick.
+Or
+	Two Venn implementations.  Two brute force (non-working) implementations.
+	Gave DeMorgan's Formula - 15 minutes after lunch to code.
+Square
+	Everyone did subclass.
+	Tried to drive factory method in discussion.
+	No participation so did 2nd 15 minutes.
+Quantity
+	1st 5 - aha very late
+	2nd 5 - objects

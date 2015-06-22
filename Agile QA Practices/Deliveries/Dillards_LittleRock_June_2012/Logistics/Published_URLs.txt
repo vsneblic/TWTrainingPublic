@@ -1,0 +1,38 @@
+For Trainers
+Go Server	https://cloud.skytap.com/vms/ec75b432277d34766e43d08675434608/desktop
+Pair1	https://cloud.skytap.com/vms/b1eaa790a5cf8132700859b6a7e82424/desktop
+Go Agent1	https://cloud.skytap.com/vms/a9cf01c4a61bae756fcdeb17fb8f328f/desktop
+Pair2	https://cloud.skytap.com/vms/6f0ed21c4efb0442cc4d9c36c7f5dded/desktop
+Go Agent2	https://cloud.skytap.com/vms/940489c80065c39266143eeb251b6500/desktop
+
+
+
+
+For pairs
+
+Go Server
+https://cloud.skytap.com/vms/7c09112ff125d47f2ee64ad094b908ae/desktop
+Pair1
+https://cloud.skytap.com/vms/61f02079c99753b5754d9a35068ff092/desktop
+Go Agent1
+https://cloud.skytap.com/vms/f8330aeba2db1a60916f441dd98ee2ac/desktop
+Pair2
+https://cloud.skytap.com/vms/52b6ab467709c73a5dc908bb65bde2a7/desktop
+Go Agent2
+https://cloud.skytap.com/vms/6bd87f5fdef603616d3ede38f85e0cb7/desktop
+Pair3
+https://cloud.skytap.com/vms/e4583226d1b96a30fe80509076198e05/desktop
+Go Agent3
+https://cloud.skytap.com/vms/170b089ae436c64f0b7494c6d8ff8370/desktop
+Pair4
+https://cloud.skytap.com/vms/dfe4f0b1ad53ed0ac4202e8f8b659df8/desktop
+Go Agent4
+https://cloud.skytap.com/vms/be4d05a85d290186f2e9ee7f3a2917c9/desktop
+Pair5
+https://cloud.skytap.com/vms/596dea564b3324c46d055a7d097ff463/desktop
+Go Agent5
+https://cloud.skytap.com/vms/0995db066db47b6fdf9aaf4da9bebaad/desktop
+Pair6
+https://cloud.skytap.com/vms/a54e2b5dd3dc347570c9f0da40c9afb3/desktop
+Go Agent6
+https://cloud.skytap.com/vms/f8a08ec2c76d098733eef3363d0c726a/desktop

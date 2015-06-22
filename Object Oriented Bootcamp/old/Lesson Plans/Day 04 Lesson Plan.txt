@@ -1,0 +1,52 @@
+Safety - Joe
+Stand Up Vocab - Wendy
+
+Finish Distance - Joe
+	Demo Refactoring Carl's Code to Single Conversion
+	
+	Try to add liquid & distance.
+		15 minutes code  - plan on one
+		exceptions
+
+Pairing Skits
+
+BREAK
+
+Pairing Demo/Hats - subtraction
+	Joe - Test
+	Wendy - Code
+
+Temperature - Wendy
+	oC = 32F
+	100C = 212F
+	-40C = -40F
+
+	switch pairs & w/hats
+		15 minutes code  - repeat if necessary
+		formula after 1st 15 - or if ask
+
+	add
+		15 minutes to get breaking tests
+		discussion
+		5 design
+		discussion
+		15 minutes code  - repeat if necessary
+
+Retrospective - Wendy
+
+---------------------------------------------------------
+Polymorphism - Joe
+	Sorting People
+	Bester Lab
+
+=========================================================
+Skip pairing demo/hats until next week.
+	Pairing OK
+	Need to finish Quantity.
+
+
+Temperature
+	Gave design time.
+
+
+Retro will be +/- only. 

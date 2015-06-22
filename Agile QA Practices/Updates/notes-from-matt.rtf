@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 CamingoDosPro-Regular;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red16\green60\blue192;\red38\green38\blue38;
+\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh9600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 For BDD: Why do we BDD? Lesson 136 from  "Lessons Learned in Software Testing" by Kaner/Bach/Pettichord: Testability is often a better investment than automation. By BDDing, we build testability in.\
+\
+\
+METRICS AND CODE MAINTAINABILITY\
+\pard\pardeftab720\sl380
+
+\f1\fs26 \cf2 Cyclomatic Complexity\
+Class Coupling\
+Depth of Inheritance\
+Maintainability index\
+Nesting levels\
+lines of code
+\f0\fs24 \cf0 \
+\
+
+\f1\fs26 \cf2 number of escaping bugs\
+customer satisfaction\
+\
+Add a pic of the testing quadrant diagram, discuss\
+\
+Dinwiddie: "when a bug is released, two things need to be fixed. The bug needs to be fixed, and the process that allowed the bug to be released needs \
+to be fixed"\
+\
+Difference between Tested and checked\
+Checking vs Exploring --  Tested = both being done\
+\
+Ideas for activities:\
+\
+[from Ulrika Malmgren on the agile-testing list]\
+an exercise where we look at the life cycle of a user story, from idea to in production and together list what kind of things a tester can do to help the team with during each step (pre planing, planing, sprint, etc..). One idea would be to first present the entire list of things that I've gathered and then do an exercise where they can do their own life cycle. Perhaps in two steps,\
+ first with the activities that they already do, and then the activities\
+ that they would like to add.\
+\
+Abstraction\
+[from Aslak in AAFTT list]\
+Pushing the "how" down (what the Cucumber community recommends) has\
+benefits and drawbacks:\
+* Features and Scenarios become more terse and are easier to understand by\
+non technical people\
+* Interfacing with other libraries must be implemented manually\
+\
+Pushing the "how" up (what the RF community seems to recommend) also has\
+benefits and drawbacks:\
+* Tests become very detailed, and less accessible to non-technical people.\
+* There is less custom coding to do\
+\
+***\
+In terms of figuring out what browsers to test with and which features to\
+focus your automation efforts on, ask 4 questions:\
+1. How does your business make money?\
+2. How do your users use your application?\
+3. What browsers are your users using?\
+4. What things have broken in the application before?\
+\
+Answer them will help you develop an automation strategy and put together a\
+backlog to focus your efforts.\
+\
+For more info: {\field{\*\fldinst{HYPERLINK "http://elementalsel/"}}{\fldrslt \cf3 \ul \ulc3 http://elementalsel}}{\field{\*\fldinst{HYPERLINK "http://enium.com/"}}{\fldrslt \cf3 \ul \ulc3 enium.com/}}tips/18-what-to-test\
+\
+\pard\pardeftab720\sl380
+\cf4 \cb5 What kinds of tests may be important?\
+- Smoke tests to discover whether the UI is rendering things correctly.\
+- Functional tests to discover whether the functionality is basically correct.\
+- Scenario-based tests (that use multiple functions) to follow data through the system.}

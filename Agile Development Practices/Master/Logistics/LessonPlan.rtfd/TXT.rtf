@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs24 \cf0 Saleem Siddiqui\
+\
+Hi, Luca:\
+\
+Thanks for sharing and asking -- I appreciate it.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf0 {\listtext	\'95	}are 3 days enough for introducing TDD, Mocking and also ATDD ?\'a0are 3 days enough for introducing CI and also CD ?\
+{\listtext	\'95	}\
+\pard\pardeftab720
+\cf0 The short answer is "probably and in most cases, no". The real answer depends on a variety of factors -- not the least of which is the technical acumen of the attendees. The approach I take is one of priority and triaging. The list of practices and concepts that I'd like the audience to practice and internalize, in decreasing order of priority, is this:\
+\
+1. 
+\b Unit-testing
+\b0  using the appropriate framework (JUnit, NUnit, Jasmine \'85 if there's interest in JavaScript). Many attendees have never used or even seen these before.\
+\
+2. 
+\b TDD
+\b0 . Even after introducing TDD in training, I find that many attendees continue falling into the old, comfortable, dangerous habit of writing code first and then writing some tests afterwards. I find it quite valuable to keep showing them the way to (literally) write tests first. An example I've used with success is the "{\field{\*\fldinst{HYPERLINK "https://github.com/saleem/Tennis"}}{\fldrslt \cf2 \ul \ulc2 tennis scoring}}" app, which is on github.\'a0\
+\
+3. 
+\b Mocking
+\b0 \'a0using the appropriate framework (Mockito, Moq). This is new for many attendees and something that can help them get out of the circular argument "I 
+\i really
+\i0 \'a0want to do TDD; but in my world, there's a ton of crappy, legacy, untested code that I must depend on. Therefore, I can't possibly test-drive my code". The tennis app and this simple but subtly vicious example of a legacy class named "{\field{\*\fldinst{HYPERLINK "http://c2.com/cgi/wiki?BadCode"}}{\fldrslt \cf2 \ul \ulc2 DBConnection}}" from Ward Cunningham's wiki are useful to get these concepts across.\
+\
+4. 
+\b Pair programming
+\b0 . We start this on day 1 and continue throughout. I use the "Pairamid" to help the attendees their own pair switching.\
+\
+5. 
+\b CI
+\b0 . When you have a suite of Unit Tests (preferably written TDD-style), introducing the value of CI becomes easier.\
+\
+6. 
+\b Functional Testing
+\b0 . I often find that the exercises for this are squeezed out because of time. When I do introduce it, I let the attendees (at least) run a functional test in Twist (either against Google or against the VideoStore). If I have more time (rarely), I ask them to modify the one existing Twist test in the Java VideoStore or write a new one.\
+\
+7. 
+\b CD
+\b0 . We don't have any labs for this in ADP. Often, I'll mention something like "CD is the next evolutionary step; once you have a functioning, stable CI server with frequent green builds". In practice, the vast majority of the companies where I've offered ADP are so far away from CD adoption that it is an acceptable compromise (to me) that we don't have a good section with hands-on examples for CD. The closest I've come to having a game/lab for CD is when I used the "{\field{\*\fldinst{HYPERLINK "http://tastycupcakes.org/2011/10/continuous-integration-with-lego/"}}{\fldrslt \cf2 \ul \ulc2 build a lego cube}}" game in an AF class in Nairobi.\
+\
+8. 
+\b ATDD
+\b0 . In practice, I've never done ATDD with a lab in any ADP class I've led. There's never enough time.\
+\
+In short: I aim for getting the attendees experience the first 5 in the above list. If I get fewer, I reflect back on how I could have covered more. If I get more than 5, I get quite happy!\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf0 {\listtext	\'95	}the exercise is a web-app.\'a0\uc0\u8232 A pro I see is that a web-app exercise can be more realistic compared to a command line one (i.e. a text-adventure game).\'a0\u8232 A con is that this involve frameworks that attendees may not know (for the .NET example maybe they are using a different version of ASP.MVC or they are using WebForms) and take time to learn and familiarize with.\'a0\
+\pard\pardeftab720
+\cf0 I agree with the dilemma you posed. My solution is to use examples that are 
+\i not
+\i0 \'a0web-apps to illustrate key concepts. For example, I'll almost always use the "tennis scoring" app or portions of the\'a0{\field{\*\fldinst{HYPERLINK "https://github.com/saleem/OOB"}}{\fldrslt \cf2 \ul \ulc2 Object Oriented Bootcamp}}\'a0codebase to illustrate TDD and mocking.\
+
+\f1 
+\f0 \
+\
+Another example I've used successfully to illustrate that you 
+\i can
+\i0 \'a0indeed TDD your code even when you depend on demonstrably unreliable, untested code is my "{\field{\*\fldinst{HYPERLINK "https://github.com/saleem/mockito_demo"}}{\fldrslt \cf2 \ul \ulc2 mockito_demo}}" example.\
+}

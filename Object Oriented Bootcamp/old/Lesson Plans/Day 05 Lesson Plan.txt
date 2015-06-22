@@ -1,0 +1,41 @@
+Stand Up Vocab - Wendy
+Safety - Joe
+
+Quantity Demo - Wendy
+
+Polymorphism - Joe
+	Sorting People
+	Bester Lab
+		Rectangle First (Group) --> NO Interface --> Array
+			5 Minute Design
+			15 Minute Code - Repeat as Necessary
+		Add Chance --> Interface
+			15 Minute Code - Repeat as Necessary
+
+Pairing Demo w/Hats - Reimplementing Bester for Rectangle
+	Joe Test
+	Wendy Code
+	Simple First Test - Best of Array of 1 & Silly Implementation
+
+Recursion - Wendy
+	People Reverse
+	String Reverse Lab
+		5 Minute Design
+		15 Minute Code - Repeat as Necessary
+
+----------------------------------------------------------------
+
+Collections - Wendy
+	Lecture
+	Golf
+	Initial Problem
+		Golf Course with Manager
+		Maximize the Tee Off Size (Up to Four)
+		Assign Tee Times Fairly
+		For First Group in Line: Answer Question How Many People am I Teeing Off With
+			Define Fair - Only When  They Ask
+			Fair = 1st always, repeat until no space/no groups
+	5 Minute Design
+	15 Minute Code - Repeat as Necessary
+
+Skits Can Be Filler

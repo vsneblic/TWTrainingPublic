@@ -1,0 +1,28 @@
+Stand Up Vocab - Wendy
+
+Collections - Wendy
+	Lecture
+	Golf
+	Initial Problem
+		Golf Course with a Manager
+		Golf Parties Request to Play (Up to Four)
+		Maximize the Tee Off Size (Up to Four)
+		Assign Tee Times Fairly
+		Allow a Manager to Determine How Many Groups and How Many Parties in Each Group Must Tee Off Before They Can Take a Break
+			Define Fair/Break - Only When  They Ask
+			Fair = 1st always, repeat until no space/no groups
+			Break = Nobody Waiting
+
+	5 Minute Design
+	15 Minute Code - Repeat as Necessary
+
+Graph - Can Reach - Joe
+	5 Minute Design
+		Poll
+	15 Minute code - Repeat as Necessary
+
+-----------------------------------------------------------------
+
+Graph - Hop Count - Wendy
+
+Skits Can Be Filler

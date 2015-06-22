@@ -1,0 +1,49 @@
+Stand Up Vocab - Wendy
+
+
+Parking Lot - Finish Observer
+	Stage 3 - Joe
+		Quick recap of code & give as reference.
+
+	Stage 4 - Wendy
+		Owner wants Attendant to watch multiple lots.
+
+		Key Points
+			Want collection of AVAILABLE lots.
+			
+
+Parking Lot - Composite
+	Stage 1 - Joe
+		Fill lots in order of fullness - want percent but make them ask.
+
+		Key Points
+			Comparator
+
+	Stage 2 - Wendy
+		Pass off work to my Cousin.
+
+		Lot1	Lot2	Cousin
+				Lot3	Lot4
+
+		Key Points
+			Attendant has list of Attendants.
+
+	Stage 3 - Wendy
+		Cousin hires an employee and I pass off work to my Uncle.
+
+		Lot1	Lot2	Cousin				Uncle
+				Lot3	Lot4	Employee	Lot7	Lot8
+						Lot5 Lot6
+
+		Key Point
+			Attendant is the same as ParkingLot.
+
+		Composite
+			Thing - Group - Thing
+			Leaf has different behavior, same interface.
+			Poll class for real life examples.
+
+
+-------------------------------------------------------------------------------
+
+Pairing Demos

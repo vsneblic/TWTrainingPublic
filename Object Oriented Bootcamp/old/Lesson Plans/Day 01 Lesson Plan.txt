@@ -1,0 +1,105 @@
+Introductions - Wendy
+	Introduce Ourselves
+	Go Around Class - Name, Fun Fact
+
+Class Schedule - Wendy
+	Review 9-3 Expectation
+	Lunch - Length, Start Time
+	Breaks - Target Start Time
+
+Class Contract - Joe
+	Be On Time
+	Cell Phones Off
+	Wait Your Turn to Speak
+	No Extracurriculars - Browsing, Games, Etc.
+	Others?
+
+Vocabulary - Wendy
+	Poll Class for OO Terms & Definitions
+	Keep List on Flip Chart Pages
+
+Object Principles - Joe
+	Get Class to ID Encapsulation / Polymorphism / Inheritence from Vocab List as Guiding Principles
+	Have Each Person Draw Pie Chart
+	Summarize Class Views
+	Give Our Take 70/20/10
+	Object History Lecture - Brooks/Parnas
+
+Rectangle - Joe
+	Introduce Pairing
+	Make Sure Everyone Has Working Environment
+	15 Minutes to Code Rectangle
+
+	Job - What is a good job.
+	Tests
+	Encapsulation
+		Final Keyword
+		Code Smells Related To It
+
+	Give 2nd 15 Minutes if Need
+
+Chase the Red X's - Wendy
+	Demo Process with Rectangle
+
+Socratic Method - Wendy
+	History
+	Reasoning
+
+Chance (Not/Equals) - Joe
+	5 Minutes Design - "The Chance of Something Happening"
+	Discussion
+		What Objects
+		What Jobs
+	5 Minutes Test Case Discovery
+	Discussion
+		Poll for Tests
+		Which is Simplist
+		Is There Anything Simpler
+	15 Minutes Coding
+		Repeat as Necessary
+	4 Elements of Simple Design
+
+-----------------------------------------------------------------
+
+Chance (And/Or) - Wendy
+	Poll
+		What Other Operations Could We Have
+		Which is Simpler
+	
+	5 Minutes Test Case Discovery
+	Discussion
+	
+	15 Minutes - Code the Simplest (Hope it's And)
+		Repeat as Necessary
+
+	15 Minutes - Code Or
+		Repeat as Necessary
+	Discussion
+		DeMorgans - Complexity OK
+		DRY - Don't reinvent and
+		Churn - Define & Demonstrate
+
+Object Interactions - Joe
+	Three Types of Interactions
+	Square
+	Kick
+	Grandmother Test
+
+
+
+==================================================================
+Notes from Day
+
+- Request for Agile Project Tools
+- E/P/I
+	Lots of high E - highest 60% x3.
+	Generally I > P.
+- Rectangle
+	A few tests, one before code.
+	No one broke encapsulation.
+- Chance
+	Lots of confusion.
+	Lots of leaking of data.
+	Drove out equals before not.
+	Had to give away new Chance in not.
+	Just started and design.

@@ -1,0 +1,44 @@
+Stand Up Vocab - Wendy
+
+Graph - Finish Min Cost
+	Discuss Current Approaches - Wendy
+		Try to Draw Out Need for Link
+
+	15 Minute Code - Add Link
+		Maybe x2 - No More
+
+	Demo Link Injection - Joe
+	Reference Code to Impl Cost
+	
+	Main Concept
+		Link
+		Injected the Design Change First
+		No Law of Demeter Violation
+
+	Remove Duplication
+		Strategy Pattern - To Remove If
+		Hopefully They Can Implement - But If Time Issue --> Demo
+		Anonymous Inner Classes - Demo from Concrete Classes if Necessary
+	
+Graph - Cheapest Path - Wendy
+	15 Minute Code - Repeat as Necessary
+
+	Main Concept
+		New Object
+		Null Object Pattern
+
+----------------------------------------------------------------------------------
+
+Super/Super/Stretch
+
+Graph - All Paths - Joe
+	15 Minute Code - Repeat as Necessary
+
+	Main Concept
+		Strategy ==> Comparator
+		Code Falls Away
+				
+
+
+
+

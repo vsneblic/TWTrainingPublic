@@ -1,0 +1,109 @@
+Stand Up Vocab - Wendy
+
+Patterns Into - Joe
+	Why
+		Common Language
+		Template
+		Design Reuse
+	
+	How
+		Title
+		Problem
+		Pattern
+		Example
+		TradeOffs
+		Interaction
+
+	Downside - compromise pure OO - but in as small of a way as possible
+
+Parking Lot - Intro & Observer - Joe
+	Stage 1
+		Build me something that let's me park a car.
+		want to get the car back, but make them ask.
+
+		5 Design
+		15 Code - Repeat as Necessary
+
+		Key Points
+			Review - Job, Encapsulation, Simple Design
+			Object car() vs. new Car()
+			LotFull and UnknownCar Exceptions
+
+	Stage 2
+		Attendant that wants to know when lot is 80% full.
+
+		Key Points 
+			Don't break Encapsulation.
+			Thinest amount of information flows.
+		Possible but don't push for them.
+			Lot should not know rule.
+			Use notification.
+
+	Stage 3
+		Cop that wants to know when there is 1 space left (same lot).
+
+		Key Points
+			Possibles from Stage 2.
+			Add interface here - 2nd time it is needed.
+
+	Stage 4
+		Owner wants Attendant to watch multiple lots.
+
+		Key Points
+			Want collection of AVAILABLE lots.
+			
+
+-------------------------------------------------------------------------------
+
+Parking Lot - Composite - Wendy
+	Stage 1
+		Fill lots in order of fullness - want percent but make them ask.
+
+		Key Points
+			Comparator
+
+	Stage 2
+		Pass off work to my Cousin.
+
+		Lot1	Lot2	Cousin
+				Lot3	Lot4
+
+		Key Points
+			Attendant has list of Attendants.
+
+	Stage 3
+		Cousing hires an employee and I pass off work to my Uncle.
+
+		Lot1	Lot2	Cousin				Uncle
+				Lot3	Lot4	Employee	Lot7	Lot8
+						Lot5 Lot6
+
+		Key Point
+			Attendant is the same as ParkingLot.
+
+		Composite
+			Thing - Group - Thing
+			Leaf has different behavior, same interface.
+			Poll class for real life examples.
+
+
+
+
+
+
+
+Mike - Solo - Demo 2
+Patrick/Pandiyan
+Carl/Rena
+Bill/Sudha
+Barghavi/Sajid - Demo 1
+Aziz/Paul
+
+
+
+Rena/Mike
+Sudha/Bhargavi
+Carl/Patrick
+Pandiyan
+Sajid/Aziz
+Paul/Bill - Demo 3

@@ -1,0 +1,54 @@
+Mingle Example Projects and Users for Agile QA Training
+
+https://minglehosting.thoughtworks.com/training/projects/ncr_agileqa_sandbox
+
+
+ncr-agileqa-instructor is an admin for all projects
+
+*user-a is a project admin for the respective pair project
+*user-b is a team member for the respective pair project
+
+"instructor" project is "instructor pair"  for use during course delivery
+
+"sandbox" project and users are available for instructor testing purposes.
+
+Projects
+=====================
+
+ncr-agileqa-pair1
+ncr-agileqa-pair2
+ncr-agileqa-pair3
+ncr-agileqa-pair4
+ncr-agileqa-pair5
+ncr-agileqa-pair6
+ncr-agileqa-sandbox
+ncr-instructor
+
+Users
+=====================
+
++ ncr-agileqa-pair1-user-a
++ ncr-agileqa-pair1-user-b
+
++ ncr-agileqa-pair2-user-a
++ ncr-agileqa-pair2-user-b
+
++ ncr-agileqa-pair3-user-a
++ ncr-agileqa-pair3-user-b
+
++ ncr-agileqa-pair4-user-a
++ ncr-agileqa-pair4-user-b
+
++ ncr-agileqa-pair5-user-a
++ ncr-agileqa-pair5-user-b
+
++ ncr-agileqa-pair6-user-a
++ ncr-agileqa-pair6-user-b
+
++ ncr-agileqa-instructor
++ ncr-agileqa-instructor-user-a
++ ncr-agileqa-instructor-user-b
+
++ ncr-agileqa-sandbox-user-a
++ ncr-agileqa-sandbox-user-b
+

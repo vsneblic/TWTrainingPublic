@@ -1,0 +1,6 @@
+NOTE: The TW Training team is NOT the sole owner of the content of this course. The true "mainline" for this content in on Jez Humble's SVN server:
+
+URL: https://jezhumble.net/svn/cdtutorial/trunk
+Repository Root: https://jezhumble.net/svn
+
+You'll need to contact Jez to get him to give you access to this repository.

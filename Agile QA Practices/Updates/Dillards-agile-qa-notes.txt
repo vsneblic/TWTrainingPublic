@@ -1,0 +1,10 @@
+Update agenda in the excel sheet, day 2 has lunch is at 1:45
+
+Simplify the testing pyramid… roll-up different finer-grained types of functional testing in to "Functional Testing", but leave End to End...
+
+Took us a long time to get through Inception… and it seems that MSL creation activity was explicitly called out.  We just had a "canned" MSL ready to go on day 2… is the the best way to handle this generally?
+
+It seems Agile QA manifesto slide had some issues, multiple slides were changing while changing one slide - Need to confirm on master while presentation mode is on.
+
+for the "reading list"
+http://www.developsense.com/resources.html#exploratory

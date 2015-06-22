@@ -1,0 +1,173 @@
+Stand Up Vocab - Wendy
+Safety - Joe
+
+Graph - Finish Cheapest Path - Joe
+	Code Cleanup
+		Group Discussion
+			Compare to Coming Back to Old Project
+			Pull it from Them
+
+			Things that should come up:
+				Lots of commented out tests in NodeTest.
+				GraphTest.shouldPath could be cleaner.
+					add to custom assertCostTo
+					also need to test exception cases
+				Path is missing a job.
+				Cost is not delegated to Link.
+					Thus cost is stored instead of calculated.
+				Path doesn't have a starting Node.
+				Path is backwards.
+				Unused code - neighborsPath.
+				Naming is not consistent.
+					hops --> counts --> neighborsCounts
+					canReach --> counts --> neighborsCounts
+					costs --> counts --> neighborsCounts
+					cheapestPath --> counts --> neighborsCounts
+
+				Look at wrt return type.
+					Node.counts returns Path
+					Node.neighborsCounts returns Path
+
+					Link.minCount returns Path & doesn't do a compare
+
+				Extra locals in Path.neighborsCount
+					champion
+					championCost
+					challengerCost
+		
+		15 Minute Code to Address
+
+	Work Towards Null Object
+		Talk About Concept
+		Let them Code
+
+	Main Concept
+		New Object
+		Null Object Pattern
+
+Graph - All Paths - Wendy
+	15 Minute Code - Repeat as Necessary
+
+	Don't Force Paths Object - OK if They Do It - Otherwise just discuss it.
+
+	Main Concept
+		Strategy ==> Comparator
+		Path - Concrete --> Interface --> Abstract --> Concrete - Check This Order
+		Code Falls Away
+
+Patterns Into - Joe
+	Why
+		Common Language
+		Template
+		Design Reuse
+	
+	How
+		Title
+		Problem
+		Pattern
+		Example
+		TradeOffs
+		Interaction
+
+	Downside - compromise pure OO - but in as small of a way as possible
+
+Parking Lot - Intro & Observer - Joe
+	Stage 1
+		Build me something that let's me park a car.
+		want to get the car back, but make them ask.
+
+		5 Design
+		15 Code - Repeat as Necessary
+
+		Key Points
+			Review - Job, Encapsulation, Simple Design
+			Object car() vs. new Car()
+			LotFull and UnknownCar Exceptions
+
+	Stage 2
+		Attendant that wants to know when lot is 80% full.
+
+		Key Points
+			Don't break Encapsulation.
+			Lot should not know rule.
+			Use notification.
+			Thinest amount of information flows.
+
+	Stage 3
+		Cop that wants to know when there is 1 space left (same lot).
+
+		Key Points
+			Add interface here - 2nd time it is needed.
+
+	Stage 4
+		Owner wants Attendant to watch multiple lots.
+
+		Key Points
+			Want collection of AVAILABLE lots.
+			
+
+-------------------------------------------------------------------------------
+
+Parking Lot - Composite - Wendy
+	Stage 1
+		Fill lots in order of fullness - want percent but make them ask.
+
+		Key Points
+			Comparator
+
+	Stage 2
+		Pass off work to my Cousin.
+
+		Lot1	Lot2	Cousin
+				Lot3	Lot4
+
+		Key Points
+			Attendant has list of Attendants.
+
+	Stage 3
+		Cousing hires an employee and I pass off work to my Uncle.
+
+		Lot1	Lot2	Cousin				Uncle
+				Lot3	Lot4	Employee	Lot7	Lot8
+						Lot5 Lot6
+
+		Key Point
+			Attendant is the same as ParkingLot.
+
+		Composite
+			Thing - Group - Thing
+			Leaf has different behavior, same interface.
+			Poll class for real life examples.
+
+
+
+
+
+
+Bad.Ugly
+
+Java 5 - This is being used extensively on the project with which TW is involved and at least some of you are going to join.  Thus we felt it was worthwhile to introduce some on the most popular features in this class.
+Agile Methodology - Everything we have been doing here is Agile.  There are some things we don't do such as planning and estimating since we only have developers in the class and teaching those would add length to the class.
+Refactoring - This is a good lead in to a deeper explanation of Apprentice / Journeyman / Master.  I will add that to the lesson plan and can do the talk on it if you want.
+
+Wanted To Learn
+
+OnStar Domain - I have sent an email (cc'd you) to Renee to see if she can get some info on this for us since I am aware of very little of what is being done on the project.  Of course, we can also always discuss that the techniques we are learning here are the basis for becoming a good domain modeler which will apply on any project.
+Agile Design - We should probably re-emphasize that the tests are the design in Agile and that is why we put so much focus on the tests.
+Tools - We are still going to have a list of these based on the request on the first day.
+
+
+PreRequisites
+
+Is the Eclipse shortcut card helpful?
+
+
+
+
+
+Mike - Solo - Demo 2
+Patrick/Pandiyan
+Carl/Rena
+Bill/Sudha
+Barghavi/Sajid
+Aziz/Paul

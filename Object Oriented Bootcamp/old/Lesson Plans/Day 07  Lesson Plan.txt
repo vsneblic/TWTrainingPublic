@@ -1,0 +1,29 @@
+Stand Up Vocab - Wendy
+
+Graph - Can Reach - Joe
+	15 Minute code - Repeat as Necessary
+	
+	Main Concept
+		Visited List
+		Required Test - assertFalse(b.canReach(g))
+	
+Graph - Hop Count - Wendy
+	15 Minute Code - Repeat as Necessary
+
+	Main Concept
+		2 Method Recursion
+		Required Test - g is unreachable from b
+
+Graph - Min Hop Count - Joe
+	15 Minute Code - Repeat as Necessary
+		Copy Constructor
+		Required Test
+				
+
+--------------------------------------------------------------
+
+Skits Can Be Filler
+
+
+
+

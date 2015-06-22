@@ -1,0 +1,252 @@
+Stand Up Vocab - Wendy
+
+
+Parking Lot - Finish  Composite
+	Stage 3 - Wendy
+		Cousin hires an employee and I pass off work to my Uncle.
+
+		Lot1	Lot2	Cousin				Uncle
+				Lot3	Lot4	Employee	Lot7	Lot8
+						Lot5 Lot6
+
+		Key Point
+			Attendant is the same as ParkingLot.
+
+		Composite
+			Thing - Group - Thing
+			Leaf has different behavior, same interface.
+			Poll class for real life examples.
+
+
+Parking Lot - Adapter
+	Distribute Jar
+	Discuss Using Tests to Figure out Design
+	Write Code to Have Cop Tow Here But Treat this as a ParkingLot
+
+-------------------------------------------------------------------------------
+
+Parking Lot - Visitor
+
+	Option 1 - Full Demo
+	Option 2
+		Start with Two Loops
+		Demo First Visitor
+		Code Second Visitor
+			
+Pairing Demos
+
+
+===============================================================================
+
+ToDo
+	Joe
+		Vocab Addendum
+		Agile Tool List
+		Write Composite
+
+	Wendy
+		Write Adapter
+		Write Visitor
+		Java 4/5 Comparison
+===============================================================================
+
+Visitor Steps
+
+Starting Point
+--------------
+
+	@Test
+	public void shouldBeAbleToCountCars() {
+		Attendant attendant = attendant();
+		    assertEquals(0,attendant.totalCarCount());
+		    park(3, attendant);
+		    assertEquals(3,attendant.totalCarCount());
+		    park(14, attendant);
+		    assertEquals(17,attendant.totalCarCount());
+	}
+
+	@Test
+	public void shouldBeAbleToPrintParkingStructure() throws Exception {
+		Attendant attendant = attendant();
+		assertEquals("{ Attendant Lot2 Lot3 { Cousin Lot7 Lot5 { Employee Lot13 Lot17 } } { Uncle Lot1 Lot11 } } ", attendant.printStructure());
+	}
+
+
+
+
+	int totalCarCount() {
+		int result = fullLotSpaces;
+		for (ParkingSpaces spaces : allSpaces)
+			result += spaces.totalCarCount();			
+		return result;
+	}
+
+	String printStructure() {
+		String result = "{ " + name + " ";
+		for (ParkingSpaces spaces : allSpaces)
+			result += spaces.printStructure();			
+		return result + "} ";
+	}
+
+
+	int totalCarCount() {
+		return cars.size();
+	}
+
+	String printStructure() {
+		return name + " ";
+	}
+
+
+
+
+First Visitor
+-------------
+
+Step 1 - Inner Class
+....................
+
+	public class CarCountVisitor {
+		private int count;
+			
+		public String print() {
+			return Integer.toString(count);
+		}
+			
+		public void visit(ParkingSpaces spaces) {
+			count += spaces.totalCarCount();
+		}
+	};
+
+
+
+
+Step 2 - Abstract Method
+........................
+
+public abstract void accept(CarCountVisitor visitor);
+
+
+Step 3 - Implement It - Point Out Double Dispatch
+.................................................
+
+public void accept(CarCountVisitor visitor) {
+	visitor.visit(this);
+}
+
+
+public void accept(CarCountVisitor visitor) {
+	visitor.visit(this);
+	for (Iterator i = entities.iterator(); i.hasNext();) {
+		ParkingEntity entity = (ParkingEntity) i.next();
+		entity.accept(visitor);
+	}
+}
+
+
+Step 4 - Add Car Count Method
+.............................
+abstract int carCount();
+
+
+int carCount() {
+	return 0;
+}
+
+
+int carCount() {
+	return cars.size();
+}
+
+
+
+Step 5 - Add Convenience Call for Users
+.......................................
+public String printCarCount() {
+	CarCountVisitor visitor = new CarCountVisitor();
+	accept(visitor);
+	return visitor.print();
+}
+
+
+
+Second Visitor
+--------------
+
+Step 1 - Create Interface
+.........................
+
+package parking;
+
+public interface ParkingLotVisitor {
+
+	public abstract String print();
+
+	public abstract void visit(ParkingSpaces spaces);
+
+}
+
+
+
+Step 2 - Convert CarCountVisitor
+................................
+
+	static ParkingLotVisitor carCountVisitor() {
+		return new ParkingLotVisitor() {
+			private int count;
+			
+			public String print() {
+				return Integer.toString(count);
+			}
+
+			public void visit(ParkingSpaces spaces) {
+				count += spaces.carCount();
+			}
+		};
+	}
+
+
+Step 3 - Add printVisitor
+.........................
+	static ParkingLotVisitor printVisitor() {
+		return new ParkingLotVisitor() {
+			private String structure = "";
+			
+			public String print() {
+				return structure;
+			}
+
+			public void visit(ParkingSpaces spaces) {
+				structure += spaces.name + " ";
+			}
+
+		};
+	}
+
+
+Step 4 - Notice need for pre/post
+.................................
+	static ParkingLotVisitor printVisitor() {
+		return new ParkingLotVisitor() {
+			private String structure = "";
+			
+			public String print() {
+				return structure;
+			}
+
+			public void visit(ParkingSpaces spaces) {
+				structure += spaces.name + " ";
+			}
+
+			public void previsit(Attendant attendant) {
+				structure += "{ ";
+			}
+
+			public void postvisit(Attendant attendant) {
+				structure += "} ";
+			}
+
+			public void previsit(ParkingLot lot) {}
+			public void postvisit(ParkingLot lot) {}
+		};
+	}

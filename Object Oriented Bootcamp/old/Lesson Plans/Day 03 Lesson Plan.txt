@@ -1,0 +1,55 @@
+Safety - Joe
+Stand Up Vocab - Wendy
+
+Finish Volume - Wendy
+	New Requirement
+		Need to print in a cookbook.
+		Does Grandma wanna see or 96 teaspoons or 2 cups of flour in the recipe.
+	If they store both ---> DRY
+	If they convert to print ---> Mixed Metaphor?/not maintable OR KISS (constantly converting)
+
+	Repeat 15 minutes until Unit class pops out.
+
+Distance - Joe
+	switch pairs
+
+	give data points
+		5 minute design
+		discuss
+
+		15 minutes - repeat if necessary
+		slug - demo & def
+
+	add
+		15 minutes code  - repeat if necessary
+		exceptions
+		result in object called on (FEET.add(YARDS) --> FEET)
+
+Pairing Role Playing - Whenever have some time to kill during distance.
+
+Pairing Demo/Hats - subtraction
+	Joe - Test
+	Wendy - Code
+
+Temperature - Wendy
+	switch pairs & w/hats
+	oC = 32F
+	100C = 212F
+	-40C = -40F
+
+Filler - s & es Factory Methods
+------------------------------------------------------------------------------
+Temperature (Add) - Wendy
+Quantity Wrap Up If Finish
+
+Polymorphism - super long shot
+
+==============================================================================
+9 AM
+	3 People in Room
+	5 Have Been Here
+
+
+After Lunch
+	2 People in Room
+	
